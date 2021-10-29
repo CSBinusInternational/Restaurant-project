@@ -28,15 +28,149 @@ a.active {
   background-color: #04aa6d;
 }
 div.Welcome {
-  height: 550px;
+  height: 600px;
   background-image: url(images/images.jpg);
-  opacity: 0.8;
+  opacity: 0.7;
 }
 div.Welcome h1 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
   text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+div.Welcome p {
+  position: absolute;
+  top: 47%;
+  left: 43%;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 22px;
+  font-weight: 400;
+}
+div.Welcome button.pushable {
+  background: hsl(340deg 100% 32%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  left: 37%;
+}
+div.Welcome button.pushable span.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(345deg 100% 47%);
+  color: white;
+  transform: translateY(-4px);
+  will-change: transform;
+  transition: transform 250ms;
+}
+
+div.Welcome button.pushable:hover .front {
+  transform: translateY(-6px);
+}
+
+div.Welcome button.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+div.Welcome button.pushable:focus:not(:focus-visible) {
+  outline: none;
+}
+div.Welcome button.pushable span.front a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+div.Welcome button.pushable2 {
+  background: hsl(340deg 100% 32%);
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  left: 52%;
+}
+div.Welcome button.pushable2 span.front2 {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: hsl(345deg 100% 47%);
+  color: white;
+  transform: translateY(-4px);
+  will-change: transform;
+  transition: transform 250ms;
+}
+
+div.Welcome button.pushable2:hover .front2 {
+  transform: translateY(-6px);
+}
+
+div.Welcome button.pushable2:active .front2 {
+  transform: translateY(-2px);
+}
+
+div.Welcome button.pushable2:focus:not(:focus-visible) {
+  outline: none;
+}
+div.Welcome button.pushable2 span.front2 a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
 }
