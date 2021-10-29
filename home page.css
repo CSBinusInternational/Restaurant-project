@@ -3,8 +3,8 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-  position: -webkit-sticky; /* Safari */
+  background-color: palevioletred;
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -22,10 +22,10 @@ li a {
 }
 
 li a:hover {
-  background-color: blue;
+  background-color: red;
 }
 a.active {
-  background-color: #04aa6d;
+  background-color: blue;
 }
 div.Welcome {
   height: 600px;
@@ -149,7 +149,7 @@ html {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   margin: 8px;
 }
 
@@ -157,7 +157,7 @@ html {
   padding: 50px;
   text-align: center;
   background-color: #474e5d;
-  color: white;
+  color: black;
 }
 
 .container {
