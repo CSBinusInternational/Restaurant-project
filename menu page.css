@@ -41,8 +41,9 @@ th{
 h1{
   text-align:center;
   font-family:serif;
-  padding-top: 10px;
-  padding-bottom: 10px;
+    font-size: 60px;
+    color: bisque;
+    padding:0px;
 }
 
 .bgstuff{
@@ -66,7 +67,8 @@ th{
   border-width: 5px;
   border-color:lightcoral;
 }
-h1{
-  text-align: center;
-  position: absolute;
-}
+
+  .topbar{
+    position:sticky;
+    top:0px;
+  }
