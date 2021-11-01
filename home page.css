@@ -1,3 +1,11 @@
+html,
+body {
+  height: 100%;
+}
+.middle {
+  min-height: 100%;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -11,6 +19,17 @@ ul {
 
 li {
   float: left;
+}
+li.title {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: cursive;
+  font-weight: 1000;
+  font-style: italic;
 }
 
 li a {
@@ -173,4 +192,87 @@ html {
 
 .title {
   color: grey;
+}
+/*Footer*/
+.footer {
+  background-color: #303036;
+  color: #d3d3d3;
+  height: 350px;
+  position: relative;
+}
+
+.footer .footer-content {
+  height: 350px;
+  display: flex;
+  margin-left: 100px;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  padding: 25px;
+}
+
+.footer .footer-bottom {
+  background-color: #343a40;
+  color: #686868;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+.footer .footer-content .contact-information .socials a {
+  color: cornflowerblue;
+  border: 1px solid gray;
+  width: 45px;
+  height: 41px;
+  padding-top: 5px;
+  margin-right: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.footer .footer-content .contact-information .socials a:hover {
+  border: 1px solid white;
+  color: white;
+  transition: all 0.3s;
+}
+
+.footer .footer-content h1,
+.footer .footer-content h2 {
+  color: red;
+}
+
+.footer .footer-content .about h1 span {
+  color: yellow;
+}
+
+.footer .footer-content .contact-information .contact span {
+  display: block;
+  font-size: 1.1em;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.backtotop a.top {
+  color: blue;
+  text-decoration: none;
 }
