@@ -19,6 +19,6 @@ css: stylecheet
 # comments
 The social media doesn't work yet, it just to show the features that the page offers.
 The nav bar is present on every page, the section you are in is in another color for you to know the page you are on.
-The about section is present in the home page, it shows the information about the restaurant and the team, you can go back to it anytime using the about putton on the nav bar. 
+The about section is present in the home page, it shows the information about the restaurant and the team, you can go back to it anytime using the about button on the nav bar. 
 The menu shows only a few items as an example. 
 view details on the event page also doesn't go anywhere but it should go to a page of details
