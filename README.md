@@ -1,5 +1,6 @@
 # Restaurant-project
 Team: The GOATS
+link: https://csbinusinternational.github.io/Restaurant-project/
 Team members: Arish and Kevin 
 # home page
 The welcoming page to our website, you can travel to the menu or the events page via the top bar, and click on the contact button to go down to the footer and find the number, email and social media.
